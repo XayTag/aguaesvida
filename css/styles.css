@@ -1,0 +1,822 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+/* Normal */
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+
+}
+
+.container-fluid{
+
+    padding: 0;
+
+}
+
+h1{
+
+    margin: 0;
+
+}
+
+h2{
+
+    margin: 0;
+
+}
+
+h3{
+
+    margin: 0;
+
+}
+
+ul{
+
+    list-style-type: none;
+
+}
+
+
+/*@media (min-width: 1500px){
+
+    !* Section title *!
+
+    #title{
+
+        margin-bottom: 250px;
+
+    }
+
+    .title{
+
+        padding: 15% 10% 0;
+
+    }
+
+    .title-section-left{
+
+        padding: 10% 0;
+
+    }
+
+    .title-section-h1{
+
+        color: #0092d1;
+        font-size: 1100%;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1;
+
+    }
+
+    .title-section-h3{
+
+        margin-bottom: 4%;
+        color: #97c218;
+        font-size: 3rem;
+
+
+    }
+
+    .title-section-p{
+
+        color: grey;
+
+    }
+
+    .title-section-img{
+
+        width: 107%;
+
+    }
+
+    .title-section-btn{
+
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+        --bs-btn-active-color: white;
+        --bs-btn-active-bg: #97c218;
+        --bs-btn-active-border-color: #97c218;
+
+    }
+
+    .title-section-btn:hover{
+
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+
+    }
+
+
+
+    !* Section neuerscheinungen *!
+
+    #neuerscheinung-messe{
+
+        padding: 0 10%;
+        margin: 0;
+
+    }
+
+    .neuerscheinung{
+
+        text-align: center;
+        background-color: #004057;
+        width: 90%;
+        padding: 70px 0;
+        border-radius: 20px;
+        margin: 50px auto;
+
+    }
+
+    .neuerscheinung-section-h2-1{
+
+        font-size: 2.5rem;
+        color: white;
+        margin: 0;
+
+    }
+
+    .neuerscheinung-section-hr{
+
+        width: 40%;
+        margin: 40px auto;
+        border-style: solid none none;
+        border-width: 3px;
+
+    }
+
+    .neuerscheinung-section-produkt{
+
+
+
+    }
+
+    .neuerscheinung-section-h1{
+
+        color: #0092d1;
+        font-size: 4rem;
+        font-weight: 600;
+        margin: 0;
+
+    }
+
+    .neuerscheinung-section-h2-2{
+
+        font-size: 3rem;
+        color: #97c218;
+        margin: 0;
+
+    }
+
+    .neuerscheinung-section-video-div{
+
+        width: 80%;
+        margin: 60px auto;
+
+    }
+
+    .neuerscheinung-section-h3{
+
+        color: white;
+        margin-bottom: 30px;
+        padding: 0 17%;
+
+    }
+
+    .neuerscheinung-section-bottom-btn{
+
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+        border-radius: 20px;
+        --bs-btn-active-color: white;
+        --bs-btn-active-bg: #97c218;
+        --bs-btn-active-border-color: #97c218;
+
+    }
+
+    .neuerscheinung-section-bottom-btn:hover{
+
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+        border-radius: 20px;
+
+    }
+
+    !* Messe *!
+
+    .messe{
+
+        text-align: center;
+        background-color: #004057;
+        width: 90%;
+        padding: 70px 0;
+        border-radius: 20px;
+        margin: 50px auto;
+
+    }
+
+    .messe-section-h2-1{
+
+        font-size: 2.5rem;
+        color: white;
+        margin: 0;
+
+    }
+
+    .messe-section-hr{
+
+        width: 40%;
+        margin: 40px auto;
+        border-style: solid none none;
+        border-width: 3px;
+
+    }
+
+    .messe-section-produkt{
+
+
+
+    }
+
+    .messe-section-h1{
+
+        color: #0092d1;
+        font-size: 4rem;
+        font-weight: 600;
+        margin: 0;
+
+    }
+
+    .messe-section-h2-2{
+
+        font-size: 3rem;
+        color: #97c218;
+        margin: 0;
+
+    }
+
+    .messe-section-video-div{
+
+        width: 80%;
+        margin: 60px auto;
+
+    }
+
+    .messe-section-h3{
+
+        color: white;
+        margin-bottom: 30px;
+        padding: 0 17%;
+
+    }
+
+    .messe-section-bottom-btn{
+
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+        border-radius: 20px;
+        --bs-btn-active-color: white;
+        --bs-btn-active-bg: #97c218;
+        --bs-btn-active-border-color: #97c218;
+
+    }
+
+    .messe-section-bottom-btn:hover{
+
+        background-color: #97c218;
+        border-color: #97c218;
+        color: white;
+        border-radius: 20px;
+
+    }
+
+}*/
+
+
+.def-pad{
+
+    padding: 0 10%;
+
+}
+
+.centered{
+
+    text-align: center;
+
+}
+
+
+.schadow-hover:hover{
+
+    box-shadow: 0 -3px 20px 0 rgba(60, 60, 60, 0.2);
+
+}
+
+hr{
+
+    border: none;
+    border-bottom: 1px solid #c0c2c4;
+    margin: 125px auto;
+    width: 70%;
+
+}
+
+
+@media (min-width: 800px){
+
+    .navbar{
+
+        .nav-logo
+
+    }
+
+}
+
+
+/* Section navbar */
+
+
+.navbar{
+
+    padding: 1% 5%;
+    height: 100px;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.95) 2%, rgba(255, 255, 255, 0.95) 100%);
+
+}
+
+
+.nav-logo{
+
+    width: 140px;
+
+}
+
+.nav-item{
+
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.nav-section-btn{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #97c218;
+    --bs-btn-active-border-color: #97c218;
+
+}
+
+.nav-section-btn:hover{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+/* Section title */
+
+
+#title{
+
+
+
+}
+
+.title{
+
+    padding: 15% 10% 0;
+
+}
+
+.title-section-left{
+
+    padding: 10% 0;
+
+}
+
+.title-section-h1{
+
+    color: #0092d1;
+    font-size: 10rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.title-section-h3{
+
+    margin-bottom: 4%;
+    color: #97c218;
+    font-size: 3rem;
+
+
+}
+
+.title-section-p{
+
+    color: grey;
+
+}
+
+.title-section-img{
+
+    width: 107%;
+
+}
+
+.title-section-btn{
+
+    border-radius: 20px;
+    margin-top: 5%;
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #97c218;
+    --bs-btn-active-border-color: #97c218;
+
+}
+
+.title-section-btn:hover{
+
+    border-radius: 20px;
+    margin-top: 5%;
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+
+}
+
+
+/* Section neuerscheinungen */
+
+
+#neuerscheinung-messe{
+
+    margin: 0;
+
+}
+
+.neuerscheinung{
+
+    text-align: center;
+    background-color: #ffffff;
+    width: 95%;
+    padding: 70px 0;
+    margin: 50px auto;
+    box-shadow: 0 -3px 20px 0 rgba(60, 60, 60, 0.1);
+
+}
+
+.neuerscheinung:hover{
+
+    box-shadow: 0 6px 30px 0 rgb(60 60 60 / 30%);
+
+}
+
+.neuerscheinung-section-h2-1{
+
+    font-size: 2.5rem;
+    color: grey;
+    margin: 0;
+
+}
+
+.neuerscheinung-section-hr{
+
+    width: 40%;
+    margin: 40px auto;
+    border-style: solid none none;
+    border-width: 3px;
+
+}
+
+.neuerscheinung-section-produkt{
+
+
+
+}
+
+.neuerscheinung-section-h1{
+
+    color: #0092d1;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.neuerscheinung-section-h2-2{
+
+    font-size: 3rem;
+    color: #97c218;
+    margin: 0;
+
+}
+
+.neuerscheinung-section-video-div{
+
+    width: 100%;
+    margin: 60px auto;
+
+}
+
+.neuerscheinung-section-h3{
+
+    color: grey;
+    margin-bottom: 30px;
+    padding: 0 17%;
+
+}
+
+.neuerscheinung-section-bottom-btn{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #97c218;
+    --bs-btn-active-border-color: #97c218;
+
+}
+
+.neuerscheinung-section-bottom-btn:hover{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+/* Messe */
+
+
+.messe{
+
+    text-align: center;
+    background-color: #ffffff;
+    width: 95%;
+    padding: 70px 0;
+    margin: 50px auto;
+    box-shadow: 0 -3px 20px 0 rgba(60, 60, 60, 0.1);
+
+}
+
+.messe:hover{
+
+    box-shadow: 0 6px 30px 0 rgb(60 60 60 / 30%);
+
+}
+
+.messe-section-h2-1{
+
+    font-size: 2.5rem;
+    color: grey;
+    margin: 0;
+
+}
+
+.messe-section-hr{
+
+    width: 40%;
+    margin: 40px auto;
+    border-style: solid none none;
+    border-width: 3px;
+
+}
+
+.messe-section-produkt{
+
+
+
+}
+
+.messe-section-h1{
+
+    color: #0092d1;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.messe-section-h2-2{
+
+    font-size: 3rem;
+    color: #97c218;
+    margin: 0;
+
+}
+
+.messe-section-img-div{
+
+    width: 100%;
+    margin: 60px auto;
+
+}
+
+.messe-section-h3{
+
+    color: grey;
+    margin-bottom: 30px;
+    padding: 0 17%;
+
+}
+
+.messe-section-bottom-btn{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #97c218;
+    --bs-btn-active-border-color: #97c218;
+
+}
+
+.messe-section-bottom-btn:hover{
+
+    background-color: #97c218;
+    border-color: #97c218;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+/* Spruch - Infos */
+
+
+#spruch-infos{
+
+
+
+}
+
+.spruch{
+
+    text-align: center;
+    background-color: #def1f9;
+    width: 97.5%;
+    padding: 70px 40px;
+    box-shadow: 0 -3px 20px 0 rgba(60, 60, 60, 0.1);
+    color: grey;
+    margin: 75px auto 125px;
+
+}
+
+@media (max-width: 1199px){
+
+    .spruch{
+
+        width: 95%;
+
+    }
+
+}
+
+.spruch-h3{
+
+    font-size: 2.5rem;
+
+}
+
+.infos{
+
+    text-align: right;
+    background-color: #ffffff;
+    width: 97.5%;
+    padding: 70px 40px;
+    box-shadow: 0 -3px 20px 0 rgba(60, 60, 60, 0.1);
+
+
+}
+
+.infos-img{
+
+    float: left;
+    width: 25%;
+
+}
+
+.infos-wasserglas-img{
+
+    width: 275px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+
+.infos-text{
+
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+
+}
+
+.infos-text-h2{
+
+    text-align: center;
+    font-size: 3rem;
+    margin: 25px 0;
+    color: #0092d1;
+
+}
+
+.infos-text-h3{
+
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 75px;
+    color: grey;
+
+}
+
+.fa-water{
+
+    color: #0092d1;
+    font-weight: 900;
+
+}
+
+.infos-p{
+
+    font-size: 1.625rem;
+    color: #97c218;
+
+}
+
+@media (min-width: 1300px){
+
+    .infos{
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .infos-wasserglas-img{
+
+        position: unset;
+        visibility: unset;
+
+    }
+
+    .infos-text{
+
+        width: 72%;
+
+    }
+
+}
+
+
+/* @medias */
+
+@media (min-width: 991px) and (max-width: 1260px){
+
+    .title-section-h1{
+
+        font-size: 7.5rem;
+
+    }
+
+    .title-section-h3{
+
+        font-size: 2rem;
+
+    }
+
+}
